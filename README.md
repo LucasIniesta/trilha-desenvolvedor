@@ -30,6 +30,6 @@ Para contribuir com o código, siga as instruções abaixo:
 1. Clone o repositório:
 
    ```bash
-   git clone [URL_DO_REPOSITORIO]
+   git clone https://github.com/LucasIniesta/trilha-desenvolvedor.git
 
 2. Edite usando a IDE de sua preferência.
