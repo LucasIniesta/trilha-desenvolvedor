@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2d7f4c59-2131-441b-bd14-a27d622f162f)# Trilha do Desenvolvedor Iniciante - Primeira Linguagem
+# Trilha do Desenvolvedor Iniciante - Primeira Linguagem
 
 Um projeto desenvolvido para ajudar desenvolvedores iniciantes a escolher uma linguagem de programação para começar, baseado em suas respostas a perguntas específicas.
 
