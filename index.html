@@ -13,76 +13,185 @@
 </head>
 <body>
     <header>
-        <h1>Trilha do programador</h1>
+        <h1>Trilha do programador - Primeira linguagem</h1>
     </header>
     <div>
         <h1>Qual é o seu objetivo principal ao aprender programação?</h1>
         <div class="answer-btn">
-            <button>Desenvolver aplicativos móveis</button>
-            <button>Desenvolver sites ou aplicações web</button>
-            <button>Automatizar tarefas ou analisar dados</button>
-            <button>Desenvolver jogos</button>
+            <button onclick="showDiv('A', '1')">Desenvolver aplicativos móveis</button>
+            <button onclick="showDiv('B', '1')">Desenvolver sites ou aplicações web</button>
+            <button onclick="showDiv('C', '1')">Automatizar tarefas ou analisar dados</button>
+            <button onclick="showDiv('D', '1')">Desenvolver jogos</button>
         </div>
     </div>
 
-    <!-- Trilha A -->
-        <div id="1A">
-            <h1>Você prefere desenvolver para IOS, Android ou ambos?</h1>
+    <section>
+
+        <!-- Trilha A -->
+            <div id="A1">
+                <h1>Você prefere desenvolver para IOS, Android ou ambos?</h1>
+                <div class="answer-btn">
+                    <button onclick="showDiv('A', '2')">IOS</button>
+                    <button onclick="showDiv('B', '2')">Android</button>
+                    <button onclick="showDiv('C', '2')">Ambos</button>
+                </div>
+                <div class='finalAnswer' id="A2">
+                    <p><strong>Swift</strong></p>
+                    <p>
+                        Swift é uma linguagem de programação poderosa e intuitiva desenvolvida pela Apple. Utilizada <br> 
+                        principalmente para criar aplicativos para iOS, macOS, watchOS e tvOS, Swift oferece uma sintaxe <br> 
+                        moderna e recursos de segurança avançados. Ela é projetada para ser fácil de aprender e divertida <br>
+                        de usar, permitindo que desenvolvedores criem aplicativos de alta performance e responsivos.
+                    </p>
+                    <button><a href="https://www.swift.org/documentation/" target="_blank">Clique para acessar a documentação da linguagem</a></button>
+                </div>
+                <div id="B2" class="finalAnswer">
+                    <p><strong>Kotlin</strong></p>
+                    <p>
+                        Kotlin é uma linguagem de programação moderna que se destaca por sua interoperabilidade total <br>
+                        com Java. Desenvolvida pela JetBrains, ela é a linguagem preferida para desenvolvimento de <br>
+                        aplicativos Android. Kotlin é conhecida por sua sintaxe concisa e expressiva, além de recursos que <br> 
+                        aumentam a produtividade dos desenvolvedores e a segurança do código.
+                    </p>
+                    <button><a href="https://kotlinlang.org/docs/home.html" target="_blank">Clique para acessar a documentação da linguagem</a></button>
+                </div>
+                <div class="finalAnswer" id="C2">
+                    <p><strong>Dart(Flutter)</strong></p>
+                    <p>
+                        Dart é uma linguagem de programação desenvolvida pelo Google, conhecida por seu uso no <br>
+                        framework Flutter. Com Dart, desenvolvedores podem criar aplicativos móveis nativos para iOS e , <br>
+                        Android a partir de um único código-fonte. Dart é projetada para ser rápida e fácil de aprender, <br>
+                        oferecendo uma experiência de desenvolvimento produtiva e flexível. 
+                    </p>
+                    <button><a href="https://dart.dev/guides" target="_blank">Clique para acessar a documentação da linguagem</a></button>
+                </div>
+            </div>
+    
+        <!-- Trilha B -->
+        <div id="B1">
+            <h1>Você prefere trabalhar no desenvolvimento da lógica do servidor (back) ou na interface e experiência do usuário (front)?</h1>
             <div class="answer-btn">
-                <button>IOS</button>
-                <button>Android</button>
-                <button>Ambos</button>
+                <button onclick="showDiv('A','3')">Front-end</button>
+                <button onclick="showDiv('B', '3')">Back-end</button>
+            </div>
+            <div class="finalAnswer" id="A3">
+                <p><strong>JavaScript</strong></p>
+                <p>
+                    JavaScript é uma das linguagens de programação mais populares do mundo, fundamental para o <br>
+                    desenvolvimento web. Com JavaScript, você pode criar interfaces dinâmicas e interativas (front-end) <br>
+                    e também desenvolver a lógica do servidor (back-end) utilizando frameworks como Node.js. Além <br>
+                    disso, JavaScript é amplamente utilizado em desenvolvimento de aplicativos móveis multiplataforma com <br>
+                    React Native.
+                </p>
+                <button><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">Clique para acessar a documentação da linguagem</a></button>
+            </div>
+            <div id="B3">
+                <h1>Você prefere trabalhar com sistemas de alta performance ou com desenvolvimento mais rápido e flexível?</h1>
+                <div class="answer-btn">
+                    <button onclick="showDiv('A', '4')">Alta performance</button>
+                    <button onclick="showDiv('B', '4')">Desenvolvimento rápido e flexível</button>
+                </div>
+            </div>
+            <div class="finalAnswer" id="A4">
+                <p><strong>C#</strong></p>
+                <p>
+                    C# é uma linguagem de programação desenvolvida pela Microsoft, amplamente utilizada para <br>
+                    desenvolvimento de aplicações empresariais e jogos. Com C# e o motor de jogos Unity, <br>
+                    desenvolvedores podem criar jogos para dispositivos móveis, consoles e desktop. C# também é uma <br> 
+                    excelente escolha para desenvolvimento de sistemas de alta performance no back-end, oferecendo <br>
+                    uma sintaxe moderna e rica em recursos.
+                </p>
+                <button><a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">Clique para acessar a documentação da linguagem</a></button>
+            </div>
+            <div class="finalAnswer" id="B4">
+                <p><strong>JavaScript (Node.js)</strong></p>
+                <p>
+                    JavaScript é uma das linguagens de programação mais populares do mundo, fundamental para o <br>
+                    desenvolvimento web. Com JavaScript, você pode criar interfaces dinâmicas e interativas (front-end) <br>
+                    e também desenvolver a lógica do servidor (back-end) utilizando frameworks como Node.js. Além <br>
+                    disso, JavaScript é amplamente utilizado em desenvolvimento de aplicativos móveis multiplataforma com <br>
+                    React Native. 
+                </p>
+                <button><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">Clique para acessar a documentação da linguagem</a></button>
             </div>
         </div>
-        <p>Swift</p>
-        <p>Kotlin</p>
-        <p>JavaScript(React Native) ou Dart(Flutter)</p>
-
-    <!-- Trilha B -->
-    <div id="1B">
-        <h1>Você prefere trabalhar no desenvolvimento da lógica do servidor (back) ou na interface e experiência do usuário (front)?</h1>
-        <div class="answer-btn">
-            <button>Front-end</button>
-            <button>Back-end</button>
+    
+        <!-- Trilha C -->
+        <div id="C1">
+            <h1>Você prefere focar em automatizar processos e tarefas (automação) ou em interpretar e analisar grandes conjuntos de dados (análise de dados)?</h1>
+            <div class="answer-btn">
+                <button onclick="showDiv('A', '5')">Automação</button>
+                <button onclick="showDiv('B', '5')">Análise de dados</button>
+            </div>
+            <div class="finalAnswer" id="A5">
+                <p><strong>Python</strong></p>
+                <p>
+                    Python é uma linguagem de programação versátil e amplamente utilizada em várias áreas da <br>
+                    tecnologia. Com uma sintaxe clara e legível, Python é ideal para automação de tarefas, análise de <br>
+                    dados, desenvolvimento web e machine learning. Sua vasta biblioteca de módulos e a forte <br>
+                    comunidade de desenvolvedores fazem de Python uma excelente escolha para iniciantes e profissionais. <br>
+                </p>
+                <button><a href="https://docs.python.org/3/" target="_blank">Clique para acessar a documentação da linguagem</a></button>
+            </div>
+            <div id="B5">
+                <h1>Você tem interesse em machine learning e inteligência artificial?</h1>
+                <div class="answer-btn">
+                    <button onclick="showDiv('A', '6')">Sim</button>
+                    <button onclick="showDiv('B', '6')">Não</button>
+                </div>
+            </div>
+            <div class="finalAnswer" id="A6">
+                <p><strong>Python</strong></p>
+                <p>
+                    Python é uma linguagem de programação versátil e amplamente utilizada em várias áreas da <br>
+                    tecnologia. Com uma sintaxe clara e legível, Python é ideal para automação de tarefas, análise de <br>
+                    dados, desenvolvimento web e machine learning. Sua vasta biblioteca de módulos e a forte <br>
+                    comunidade de desenvolvedores fazem de Python uma excelente escolha para iniciantes e profissionais. <br>
+                </p>
+                <button><a href="https://docs.python.org/3/" target="_blank">Clique para acessar a documentação da linguagem</a></button>
+            </div>
+            <div class="finalAnswer" id="B6">
+                <p><strong>R</strong></p>
+                <p>
+                    R é uma linguagem de programação e ambiente de software voltado para estatísticas e análise de <br>
+                    dados. Utilizada por estatísticos e cientistas de dados, R oferece uma ampla gama de ferramentas <br>
+                    para manipulação de dados, visualização gráfica e modelagem estatística. É uma linguagem <br>
+                    poderosa para explorar, analisar e apresentar grandes conjuntos de dados.
+                </p>
+                <button><a href="https://www.r-project.org/other-docs.html" target="_blank">Clique para acessar a documentação da linguagem</a></button>
+            </div>
         </div>
-    </div>
-    <p>JavaScript</p>
-    <div>
-        <h1>Você prefere trabalhar com sistemas de alta performance ou com desenvolvimento mais rápido e flexível?</h1>
-        <div class="answer-btn">
-            <button>Alta performance</button>
-            <button>Desenvolvimento rápido e flexível</button>
+    
+        <!-- Trilha D -->
+        <div id="D1">
+            <h1>Você prefere desenvolver jogos para desktop, consoles ou dispositivos móveis?</h1>
+            <div class="answer-btn">
+                <button onclick="showDiv('A', '7')">Desktop/Consoles</button>
+                <button onclick="showDiv('B', '7')">Dispositivos móveis</button>
+            </div>
+            <div class="finalAnswer" id="A7">
+                <p><strong>C++</strong></p>
+                <p>
+                    C++ é uma linguagem de programação de propósito geral, conhecida por sua eficiência e controle <br>
+                    sobre recursos de hardware. Amplamente utilizada em desenvolvimento de jogos, sistemas <br>
+                    operacionais e software de alto desempenho, C++ oferece uma combinação poderosa de <br>
+                    características de programação de baixo e alto nível. É a escolha ideal para desenvolvedores que <br>
+                    precisam de performance e flexibilidade máxima.
+                </p>
+                <button><a href="https://learn.microsoft.com/pt-br/cpp/?view=msvc-170" target="_blank">Clique para acessar a documentação da linguagem</a></button>
+            </div>
+            <div class="finalAnswer" id="B7">
+                <p><strong>C# (Unity)</strong></p>
+                <p>
+                    C# é uma linguagem de programação desenvolvida pela Microsoft, amplamente utilizada para <br>
+                    desenvolvimento de aplicações empresariais e jogos. Com C# e o motor de jogos Unity, <br>
+                    desenvolvedores podem criar jogos para dispositivos móveis, consoles e desktop. C# também é uma <br> 
+                    excelente escolha para desenvolvimento de sistemas de alta performance no back-end, oferecendo <br>
+                    uma sintaxe moderna e rica em recursos.
+                </p>
+                <button><a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">Clique para acessar a documentação da linguagem</a></button>
+            </div>
         </div>
-    </div>
-    <p>C#</p>
-    <p>JavaScript (Node.js)</p>
-
-    <!-- Trilha C -->
-    <div id="1C">
-        <h1>Você prefere focar em automatizar processos e tarefas (automação) ou em interpretar e analisar grandes conjuntos de dados (análise de dados)?</h1>
-        <div class="answer-btn">
-            <button>Automação</button>
-            <button>Análise de dados</button>
-        </div>
-    </div>
-    <p>Python</p>
-    <div>
-        <h1>Você tem interesse em machine learning e inteligência artificial?</h1>
-        <div class="answer-btn">
-            <button>Sim</button>
-            <button>Não</button>
-        </div>
-    </div>
-
-    <!-- Trilha D -->
-    <div id="1D">
-        <h1>Você prefere desenvolver jogos para desktop, consoles ou dispositivos móveis?</h1>
-        <div class="answer-btn">
-            <button>Desktop/Consoles</button>
-            <button>Dispositivos móveis</button>
-        </div>
-    </div>
-    <p>C++</p>
-    <p>C# (Unity)</p>
+    </section>
 </body>
 </html>
