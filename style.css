@@ -1,0 +1,48 @@
+body{
+    background-color: #303030;
+    color:aliceblue;
+    font-family: 'Roboto Condensed';
+    text-align: center;
+    margin: 0;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    width: 175px;
+    height: 50px;
+    padding: 5px;
+    margin-right: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.8s;
+    
+}
+
+button:hover{
+    width: 200px;
+    height: 75px;
+    transition-duration: 0.8s;
+    background-color: grey;
+    color: aliceblue;
+}
+
+header{
+    background: aliceblue;
+    color: #303030;
+    height: 50px;
+    padding: 25px;
+    display: flex;
+    text-align: center;
+}
+
+header h1{
+    margin: 0 auto;
+    padding: 0px auto
+}
+
+.answer-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
